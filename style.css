@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9edb0e;
+   
+}
+
+.container {
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-holder {
+    width: 35%;
+    height: 30%;
+    /* border: 1px solid yellow; */
+    text-align: center;
+    
+}
+
+.diceMain {
+    width: 20%;
+    margin: 1.3vw;
+}
+
+button{
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: #ee1919;
+}
